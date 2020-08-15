@@ -1,0 +1,41 @@
+body{
+    background-image: url('images/signup-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat';
+}	
+#box{
+          margin-bottom: 5%;
+          margin-top: 5%;
+          margin-left: 28%;
+          background-color: white;
+          width: 40%;
+          padding: 3%;
+          border-radius: 25px;
+          display: inline-block;
+}
+input[type = text], [type = password], [type = email], select,
+        [type = date], [type = number]{
+            width: 45%;
+            display: inline;
+            padding: 3% 4%;
+            margin: 1.5%;
+            box-sizing: border-box;
+            display: inline-block;
+}
+.button{
+          border: none;
+          color: white;
+          padding: 3% 42%;
+          text-align: center;
+          font-size: 100%;
+          cursor: pointer;
+          background-color: #008CBA;
+          border-radius: 8px;
+          transition: 0.3s;
+          opacity: 0.6;
+}
+.button:hover{
+    opacity: 1;
+}

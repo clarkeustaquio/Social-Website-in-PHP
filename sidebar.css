@@ -1,0 +1,163 @@
+.sidenav {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border: 1.5px solid;
+}
+.sidenav a{
+    padding: 6px 8px 6px 110px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+     color: #1DA1F2;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+            body{
+                background-color: #292F33;
+                font-family: 'Montserrat';
+                width: 100%;
+            }
+            h3{
+                    margin-left: 400px;
+                    margin-top: 15px;
+                    margin-bottom: 20;
+                    color: white;
+            }
+            h4{
+                margin-left: 390px;
+                margin-top: 15px;
+                margin-bottom: 20;
+                color: white;   
+            }
+            #box{
+				  position: absolute;
+				  left: 1;
+	              right: 0;
+	              margin: auto;
+				  width: 765px;	
+			}
+			textarea{
+				    display: block;
+					margin-left: auto;
+					margin-right: auto;
+					resize: none;
+			}
+			.button{
+				  border: none;
+				  color: white;
+				  padding: 5px 20px;
+				  text-align: center;
+				  font-size: 15px;
+				  margin: 4px 2px;
+				  cursor: pointer;
+				  background-color: #008CBA;
+				  border-radius: 10px;
+			}
+			input[type = submit]{
+				background-color: #08a0e9;
+				border-radius: 15px;
+				margin-left: 1050px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			#wrap{
+				  position: absolute;
+				  top: 130;
+				  left: 40;
+	              margin: auto;
+			}
+			#profile{
+				position: absolute;
+				top: 20;
+				left: 30;
+	            margin: auto;
+
+				height: 100;
+				width: 100;
+				background-color: black;
+				border-radius: 100px;
+			}
+			#imgIcon{
+				width: 50;
+				height: 50;
+				margin-left: 10;
+				margin-top: 10;
+				border-radius: 50%;	
+			}
+			.name{
+				  position: absolute;
+                  margin-left: 30;
+                  margin-top: 3;
+			}
+			.date{
+				position: absolute;
+				margin-left: 18;
+				margin-top: 1;
+			}
+			#nav{
+				margin-top: -25;
+			}
+			#form{
+				margin-left: 100;
+			}
+			#searchMe{
+				margin-left: 10;
+			}
+			.choice{
+				margin-left: 150;
+            }
+            
+            img{
+				max-width: 100%;
+				max-height: 100%;	
+            }
+            #imgProfile{
+				width: 800;
+				height: 800;
+				margin-left: 250;
+				margin-top: -90;
+				border-radius: 100;	
+			}
+			input[type="file"]{
+				display: none;
+			}
+			.custom-file-upload {
+				border: 1px solid #ccc;
+				display: inline-block;
+				padding: 6px 12px;
+				cursor: pointer;
+			}
+			[contentEditable=true]:empty:not(:focus):before{
+				content:attr(data-text)
+			}
+			.sticky {
+				position: fixed;
+				top: 0;
+				width: 100%;
+			}
+			  
+			.sticky + .content {
+				padding-top: 102px;
+			}
+			.header {
+				z-index: 1;
+				padding: 1px 0px;
+				background: #292F33;
+				color: #f1f1f1;
+				width: 760;
+				margin-left: 380;
+				margin-bottom: -20;
+			}

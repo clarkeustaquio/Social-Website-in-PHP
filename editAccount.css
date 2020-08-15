@@ -1,0 +1,41 @@
+body{
+    background-color: #292F33;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat';
+}	
+#box{
+          margin-bottom: 75px;
+          margin-top: 75px;
+          background-color: white;
+          width: 600px;
+          padding: 50px;
+          border-radius: 15px;
+          display: inline-block;
+}
+input[type = text], [type = password], [type = email], select,
+        [type = date], [type = number]{
+            width: 45%;
+            display: inline;
+            padding: 16px 20px;
+            margin: 8px;
+            box-sizing: border-box;
+            display: inline-block;
+}
+.button{
+          border: none;
+          color: white;
+          padding: 16px 250px;
+          text-align: center;
+          font-size: 15px;
+          margin: 4px 2px;
+          cursor: pointer;
+          background-color: #008CBA;
+          border-radius: 8px;
+          transition: 0.3s;
+          opacity: 0.6;
+}
+.button:hover{
+    opacity: 1;
+}

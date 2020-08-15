@@ -1,0 +1,30 @@
+.lowerSend{
+    position: fixed;
+    bottom: 60;
+    margin-left: 205;
+    background-color: #292F33;
+}
+
+#chatBox{
+    position: absolute;
+    left: 1;
+    right: 0;
+    margin: auto;
+    width: 760px;	
+    height: 500px;
+    background-color: transparent;
+}
+#imgIconChat{
+    width: 50;
+    height: 50;
+    margin-left: 10;
+    margin-top: 10;
+    margin-bottom: 20;
+    border-radius: 50%;	
+}
+
+div.content{
+    height: 100px;
+}
+
+
